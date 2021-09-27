@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0 auto;
+  padding: 0;
+  background:white;
+}
+
+.left {
+  left: 25px;
+}
+
+.right {
+  right: 25px;
+}
+
+.center {
+  text-align: center;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 25px;
+}
+
+#gradient {
+
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 100%;
+  height: 150px;
+}
+
+#gradient:after {
+  content: "";
+  position: absolute;
+  background: white;
+  left: 50%;
+  margin-top: -67.5px;
+  margin-left: -270px;
+  padding-left: 20px;
+  border-radius: 5px;
+  width: 520px;
+  height: 275px;
+  z-index: -1;
+}
+
+#card {
+  position: absolute;
+  width: 400px;
+  height: 225px;
+  padding: 25px;
+  padding-top: 10;
+  padding-bottom: 0;
+
+  top: 67.5px;
+  /* background: #E9E2D0; */
+  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+  z-index: 5;
+  border-inline-end-color: red;
+}
+
+#card img {
+  width: 150px;
+  float: left;
+  border-radius: 5px;
+  margin-right: 20px;
+
+}
+
+#card h2 {
+  font-family: courier;
+  color: #333;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 15pt;
+}
+
+#card p {
+  font-family: courier;
+  color: #555;
+  font-size: 13px;
+}
+
+#card span {
+  font-family: courier;
+}
+
+</style>
+</head>
+<body>
+
+<div id="gradient"></div>
+<div id="card">
+  <img src="hung4.jpg"/>
+  <h2 style="color: red;">Đinh Văn Hùng (Hùng 4)</h2>
+  <p style="color:red">Đối tượng lưa đảo</p>
+  <p style="color: red;">Đối tương lừa đảo chuyên nghiệp, chuyên lừa đảo về chứng khoán, tiền ảo </p>
+  <p>Ai gặp hùng ở đâu xin liên hệ lại với chúng tôi)</p>
+  <span style="color: red;" class="left bottom">tel: 731 366 ***</span>
+  <span class="right bottom">adress:Ninh Bình</span>
+</div>
+
+</body>
+</html> 
